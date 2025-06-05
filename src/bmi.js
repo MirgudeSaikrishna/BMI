@@ -25,7 +25,7 @@ const BMICalculator = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-100 to-blue-300">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-100 to-blue-300">
       <div className="p-8 bg-white rounded-xl shadow-lg max-w-sm w-full">
         <h1 className="text-3xl font-bold text-center text-blue-600 mb-6">
           BMI Calculator
@@ -81,7 +81,12 @@ const BMICalculator = () => {
           </div>
         )}
       </div>
-        <img src="https://cdn.shopify.com/s/files/1/0011/7958/2517/files/bmi-body-mass-index-for-plus-size-obese-chart.jpg?v=1586289163" , alt="chart"/>
+      <img
+        src="https://cdn.shopify.com/s/files/1/0011/7958/2517/files/bmi-body-mass-index-for-plus-size-obese-chart.jpg?v=1586289163"
+        alt="chart"
+        className="mt-6 w-80 max-w-full rounded-lg shadow"
+        style={{ objectFit: "contain" }}
+      />
     </div>
   );
 };
