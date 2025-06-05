@@ -81,7 +81,7 @@ const BMICalculator = () => {
           </div>
         )}
       </div>
-        <img src="https://cdn.shopify.com/s/files/1/0011/7958/2517/files/bmi-body-mass-index-for-plus-size-obese-chart.jpg?v=1586289163" , alt="chart">
+        <img src="https://cdn.shopify.com/s/files/1/0011/7958/2517/files/bmi-body-mass-index-for-plus-size-obese-chart.jpg?v=1586289163" , alt="chart"/>
     </div>
   );
 };
